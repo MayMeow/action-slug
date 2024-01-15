@@ -1,0 +1,12 @@
+name: "Create Slug Action"
+description: "Create a slug from a string"
+inptus:
+  text:
+    description: "The string to slugify"
+    required: true
+outputs:
+  slug:
+    description: "The slugified string"
+runs:
+  using: "node20"
+  main: "index.js"

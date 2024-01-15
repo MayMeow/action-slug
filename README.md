@@ -1,2 +1,3 @@
-# action-slug
-Create slug from environment variables
+# Create Slug Action
+
+Create slug from input.

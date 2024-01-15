@@ -1,6 +1,6 @@
 name: "Create Slug Action"
 description: "Create a slug from a string"
-inptus:
+inputs:
   text:
     description: "The string to slugify"
     required: true

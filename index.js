@@ -30,7 +30,7 @@ const sets = [
 ];
 
 try {
-    const text = core.getInput('text');
+    let text = core.getInput('text');
 
     sets.forEach(set => {
         text = text.replace(new RegExp(set.from, 'gi'), set.to);
